@@ -1,0 +1,15 @@
+{
+  "name": "basic-node-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/index.js",
+    "build": "esbuild ./src/index.js --bundle --outfile=./build/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "esbuild": "^0.14.27"
+  }
+}
